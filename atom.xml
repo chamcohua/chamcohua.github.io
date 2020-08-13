@@ -2,7 +2,7 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://chamcohua.github.io/</id>
     <title>Gridea</title>
-    <updated>2020-08-13T09:55:49.466Z</updated>
+    <updated>2020-08-13T11:33:48.168Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://chamcohua.github.io/"/>
     <link rel="self" href="https://chamcohua.github.io/atom.xml"/>
@@ -10,6 +10,27 @@
     <logo>https://chamcohua.github.io/images/avatar.png</logo>
     <icon>https://chamcohua.github.io/favicon.ico</icon>
     <rights>All rights reserved 2020, Gridea</rights>
+    <entry>
+        <title type="html"><![CDATA[GitHub Pages 绑定个人域名，免费域名freenom]]></title>
+        <id>https://chamcohua.github.io/post/github-pages-bang-ding-ge-ren-yu-ming-mian-fei-yu-ming-freenom/</id>
+        <link href="https://chamcohua.github.io/post/github-pages-bang-ding-ge-ren-yu-ming-mian-fei-yu-ming-freenom/">
+        </link>
+        <updated>2020-08-13T10:22:07.000Z</updated>
+        <content type="html"><![CDATA[<h1 id="前言">前言😎</h1>
+<p>在freenom中购买12个月的免费域名<code>chamcohua.cf</code></p>
+<p><mark>注意</mark>：用的代理节点所在地区要尽量和注册freenom时填的地区一致。</p>
+<h2 id="配置-dns">配置 DNS</h2>
+<figure data-type="image" tabindex="1"><img src="https://chamcohua.github.io//post-images/1597314360373.png" alt="" loading="lazy"></figure>
+<figure data-type="image" tabindex="2"><img src="https://chamcohua.github.io//post-images/1597314389851.png" alt="" loading="lazy"></figure>
+<h2 id="custom-domain">Custom domain</h2>
+<figure data-type="image" tabindex="3"><img src="https://chamcohua.github.io//post-images/1597314400033.png" alt="" loading="lazy"></figure>
+<h2 id=""><img src="https://chamcohua.github.io//post-images/1597314410002.png" alt="" loading="lazy"></h2>
+<ol>
+<li>主要参考：https://io-oi.me/tech/custom-domains-on-github-pages/</li>
+<li>来源：https://help.github.com/articles/setting-up-an-apex-domain/</li>
+</ol>
+]]></content>
+    </entry>
     <entry>
         <title type="html"><![CDATA[Typora常用技巧]]></title>
         <id>https://chamcohua.github.io/post/typora-chang-yong-ji-qiao/</id>
@@ -182,8 +203,8 @@
 </ol>
 <h1 id="任务列表">任务列表</h1>
 <ul class="contains-task-list">
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-14515"><label class="task-list-item-label" for="task-item-14515"> A</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-2662495"><label class="task-list-item-label" for="task-item-2662495"> b</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-3463890"><label class="task-list-item-label" for="task-item-3463890"> A</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-4559191"><label class="task-list-item-label" for="task-item-4559191"> b</label></li>
 </ul>
 <p>创建方式：- [ ] A</p>
 <p>注意：</p>
