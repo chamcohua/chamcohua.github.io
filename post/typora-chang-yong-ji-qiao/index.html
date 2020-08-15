@@ -1,108 +1,333 @@
-<html>
 <head>
-    <meta charset="utf-8"/>
-<meta name="description" content=""/>
-<meta name="viewport" content="width=device-width, initial-scale=1"/>
-
-<title>Typora常用技巧 | chamcohua</title>
-
-<link rel="shortcut icon" href="https://chamcohua.github.io//favicon.ico?v=1597462102434">
-
-<link href="https://cdn.jsdelivr.net/npm/@fortawesome/fontawesome-free/css/all.min.css" rel="stylesheet">
-<link rel="stylesheet" href="https://chamcohua.github.io//styles/main.css">
-<link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/css/bootstrap.min.css">
-
-<script src="https://cdn.jsdelivr.net/npm/@highlightjs/cdn-assets/highlight.min.js"></script>
-<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dockerfile.min.js"></script>
-<script src="https://cdn.bootcss.com/highlight.js/9.15.10/languages/dart.min.js"></script>
-
-<script src="https://cdn.jsdelivr.net/npm/moment@2.27.0/moment.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/jquery@3.5.1/dist/jquery.slim.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.0/dist/umd/popper.min.js"></script>
-<script src="https://cdn.jsdelivr.net/npm/bootstrap@4.5.0/dist/js/bootstrap.min.js"></script>
-<!-- DEMO JS -->
-<!--<script src="media/scripts/index.js"></script>-->
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="[toc]
+typora快捷键😀
 
 
 
-    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/katex@0.12.0/dist/katex.css">
+
+快捷键
+创建方式(markdown)
+显示结果
+
+
+
+
+一到六级标题
+Ctrl+1到Ctrl+6
+n个#(n=1~6)
+
+
+
+斜体
+Ctrl+I
+*斜体*
+斜体
+
+
+加粗
+Ctrl+B
+**加粗*..."/>
+    <meta name="keywords" content="Typora"/>
+    <link rel="stylesheet" href="https://chamcohua.github.io//media/css/bootstrap.min.css">
+    <link rel="stylesheet" href="https://chamcohua.github.io//styles/main.css">
+    
+        <link rel="stylesheet" href="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.1/build/styles/rainbow.min.css">
+    
+    <script src="//cdn.jsdelivr.net/gh/highlightjs/cdn-release@9.18.1/build/highlight.min.js"></script>
+    <script src="https://chamcohua.github.io//media/js/clipboard.min.js"></script>
+    <link rel="stylesheet" href="https://chamcohua.github.io//media/css/live2d.css">
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.2.1/dist/jquery.min.js"></script>
+    <!-- 最新版本的 Bootstrap 核心 CSS 文件 -->
+    <link href="https://cdn.bootcdn.net/ajax/libs/font-awesome/5.13.1/css/all.min.css" rel="stylesheet">
+    <!-- 数学公式 -->
+    
+    <title>chamcohua</title>
+    
+        <style>
+            .markdownIt-TOC {
+                margin-left: 28%;
+                padding-left: 2px;
+                width: 80%;
+            }
+
+            .markdownIt-TOC li {
+                padding-left: 8%;
+            }
+
+        </style>
+    
 </head>
-<body>
-<div class="main gt-bg-theme-color-first">
-    <nav class="navbar navbar-expand-lg">
-    <div class="navbar-brand">
-        <img class="user-avatar" src="/images/avatar.png" alt="头像">
-        <div class="site-name gt-c-content-color-first">
-            chamcohua
-        </div>
-    </div>
-    <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
-            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
-        <i class="fas fa-bars gt-c-content-color-first" style="font-size: 18px"></i>
-    </button>
-    <div class="collapse navbar-collapse" id="navbarSupportedContent">
-        <div class="navbar-nav mr-auto" style="text-align: center">
-            
-                <div class="nav-item">
-                    
-                        <a href="/" class="menu gt-a-link">
-                            首页
-                        </a>
-                    
-                </div>
-            
-                <div class="nav-item">
-                    
-                        <a href="/archives" class="menu gt-a-link">
-                            归档
-                        </a>
-                    
-                </div>
-            
-                <div class="nav-item">
-                    
-                        <a href="/tags" class="menu gt-a-link">
-                            标签
-                        </a>
-                    
-                </div>
-            
-                <div class="nav-item">
-                    
-                        <a href="/post/about" class="menu gt-a-link">
-                            关于
-                        </a>
-                    
-                </div>
-            
-        </div>
-        <div style="text-align: center">
-            <form id="gridea-search-form" style="position: relative" data-update="1597462102434" action="/search/index.html">
-                <input class="search-input" autocomplete="off" spellcheck="false" name="q" placeholder="搜索文章" />
-                <i class="fas fa-search gt-c-content-color-first" style="position: absolute; top: 9px; left: 10px;"></i>
-            </form>
-        </div>
-    </div>
-</nav>
 
-    <div class="post-container">
-        <div class="post-detail gt-bg-theme-color-second">
-            <article class="gt-post-content">
-                <h2 class="post-title">
-                    Typora常用技巧
-                </h2>
-                <div class="post-info">
-                    <time class="post-time gt-c-content-color-first">
-                        · 2020-08-12 ·
-                    </time>
-                    
-                        <a href="https://chamcohua.github.io/tag/y28mMCip-/" class="post-tags">
-                            # Typora
-                        </a>
-                    
+<body>
+<!-- 响应式布局，针对PC端内容显示 -->
+<div id="content">
+    <div class="nav-large">
+        <div class="row">
+            <div class="side"><head>
+    <meta name="description" content="温故而知新" />
+    <link rel="stylesheet" href="https://chamcohua.github.io//media/css/bootstrap.min.css">
+</head>
+
+
+<body>
+    
+    <div id=side>
+        <div class="avatar-border">
+            <img src="https://chamcohua.github.io//images/avatar.png?v=1597464181411" class="avatar">
+        </div>
+        <div class="sitename">chamcohua</div>
+        <span class="describtion" data-text='["温故而知新"]'>&nbsp;</span>
+        
+        <div class="search">
+            <!-- <input type="text" class="search-input" placeholder="标题搜索(●'◡'●)" /> -->
+            <input type="text" class="search-input" placeholder="标题搜索 ⚆_⚆ つ♡">
+            <div class="search-results"></div>
+        </div>
+        
+    <div class="share-button">
+        <span>社交按钮</span>
+        
+        <a href="https://github.com/chamcohua" target="_blank"><i><img class="icon"
+                    src="https://chamcohua.github.io//media/images/github.png" alt=""></i></a>
+        
+        
+        
+        
+        
+        
+    </div>
+    <div id="qq" style="display:none"></div>
+    
+    
+    <div class="mchocie describtion">
+        <a href="/" class="menubutton">
+            首页
+        </a>
+    </div>
+    
+    
+    
+    <div class="mchocie describtion">
+        <a href="/archives" class="menubutton">
+            归档
+        </a>
+    </div>
+    
+    
+    
+    <div class="mchocie describtion">
+        <a href="/tags" class="menubutton">
+            标签
+        </a>
+    </div>
+    
+    
+    
+    <div class="mchocie describtion">
+        <a href="/post/about" class="menubutton">
+            关于
+        </a>
+    </div>
+    
+    
+    
+    
+    <hr>
+    <div id="footinfo">Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a> | Theme: <a
+        href="https://github.com/850552586/gridea-theme-fog">Fog</a></div>
+    
+    
+    </div>
+
+
+<script src="https://chamcohua.github.io//media/js/wordshow.js"></script>
+    
+
+
+
+
+    
+</body>
+<script>
+    //-------------------------------------------------搜索
+    // 获取搜索框、搜索按钮、清空搜索、结果输出对应的元素
+    var searchInput = document.querySelector('.search-input');
+    var searchResults = document.querySelector('.search-results');
+
+    // 申明保存文章的标题、链接、内容的数组变量
+    var searchValue = '',
+        arrItems = [],
+        arrLinks = [],
+        arrTitles = [],
+        arrResults = [],
+        indexItem = [],
+        itemLength = 0;
+    var tmpDiv = document.createElement('div');
+    tmpDiv.className = 'result-item';
+
+    // ajax 的兼容写法
+    var xhr = new XMLHttpRequest() || new ActiveXObject('Microsoft.XMLHTTP');
+    xhr.onreadystatechange = function () {
+        if (xhr.readyState == 4 && xhr.status == 200) {
+            xml = xhr.responseXML;
+            arrItems = xml.getElementsByTagName('entry');
+            itemLength = arrItems.length;
+            // 遍历并保存所有文章对应的标题、链接、内容到对应的数组中
+            // 同时过滤掉 HTML 标签
+            for (i = 0; i < itemLength; i++) {
+                var link = arrItems[i].getElementsByTagName('link')[0];
+                arrLinks[i] = link.getAttribute("href");
+                arrTitles[i] = arrItems[i].getElementsByTagName('title')[0].
+                childNodes[0].nodeValue.replace(/<.*?>/g, '');
+            }
+        }
+    }
+
+    // 开始获取根目录下 feed.xml 文件内的数据
+    xhr.open('get', '/atom.xml', true);
+    xhr.send();
+
+
+
+    // 输入框内容变化后就开始匹配，可以不用点按钮
+    // 经测试，onkeydown, onchange 等方法效果不太理想，
+    // 存在输入延迟等问题，最后发现触发 input 事件最理想，
+    // 并且可以处理中文输入法拼写的变化
+    searchInput.oninput = function () {
+        setTimeout(searchConfirm, 0);
+    }
+    searchInput.onfocus = function () {
+        searchResults.style.display = 'block';
+    }
+
+    function searchConfirm() {
+        if (searchInput.value == '') {
+            searchResults.style.display = 'none';
+        } else if (searchInput.value.search(/^\s+$/) >= 0) {
+            // 检测输入值全是空白的情况
+            searchInit();
+            var itemDiv = tmpDiv.cloneNode(true);
+            itemDiv.innerText = '请输入有效内容...';
+            searchResults.appendChild(itemDiv);
+        } else {
+            // 合法输入值的情况
+            searchInit();
+            searchValue = searchInput.value;
+            // 在标题、内容中查找
+            searchMatching(arrTitles, searchValue);
+        }
+    }
+
+    // 每次搜索完成后的初始化
+    function searchInit() {
+        arrResults = [];
+        indexItem = [];
+        searchResults.innerHTML = '';
+        searchResults.style.display = 'block';
+    }
+
+    function searchMatching(arr1, input) {
+        // 忽略输入大小写
+        input = new RegExp(input, 'i');
+        // 在所有文章标题、内容中匹配查询值
+        for (i = 0; i < itemLength; i++) {
+            if (arr1[i].search(input) !== -1) {
+                var arr = arr1;
+                indexItem.push(i); // 保存匹配值的索引
+                var indexContent = arr[i].search(input);
+                // 此时 input 为 RegExp 格式 /input/i，转换为原 input 字符串长度
+                var l = input.toString().length - 3;
+                var step = 10;
+
+                // 将匹配到内容的地方进行黄色标记，并包括周围一定数量的文本
+                arrResults.push(arr[i].slice(indexContent - step, indexContent));
+            }
+        }
+
+        // 输出总共匹配到的数目
+        var totalDiv = tmpDiv.cloneNode(true);
+        totalDiv.innerHTML = '<b>总匹配：' + indexItem.length + ' 项<hr></b>';
+        searchResults.appendChild(totalDiv);
+
+        // 未匹配到内容的情况
+        if (indexItem.length == 0) {
+            var itemDiv = tmpDiv.cloneNode(true);
+            itemDiv.innerText = '未匹配到内容...';
+            searchResults.appendChild(itemDiv);
+        }
+
+        // 将所有匹配内容进行组合
+        for (i = 0; i < arrResults.length; i++) {
+            var itemDiv = tmpDiv.cloneNode(true);
+            itemDiv.innerHTML = '<b>[' + arrTitles[indexItem[i]] +
+                ']</b><p>' + arrResults[i] + "</p><hr />";
+            itemDiv.setAttribute('onclick', 'changeHref(arrLinks[indexItem[' + i + ']])');
+            searchResults.appendChild(itemDiv);
+        }
+    }
+
+    function changeHref(href) {
+        location.href = href;
+    }
+
+    function showqq() {
+        var qq = document.getElementById("qq").innerHTML;
+        if (qq != '')
+            window.location.href = "tencent://message/?uin=" + qq + "&Site=&Menu=yes";
+        else
+            alert("博主暂未设置QQ联系方式");
+    }
+</script>
+</div>
+            
+                <div id="tab1" class="tab">
+                    <div class="bars">
+                        <span></span>
+                        <span></span>
+                        <span></span>
+                    </div>
+                    <div class="close"></div>
                 </div>
-                <div class="post-content">
-                    <p>[toc]</p>
+                <div id="main" class="col-xs-12 col-sm-7">
+                    <link rel="stylesheet" href="https://chamcohua.github.io//media/css/font-awesome.css">
+<style>
+
+</style>
+
+<body>
+    <div class="allcontent" id="postdetail">
+        <div class="postshow">
+            
+            <div class="postdetailimg" style="width:100%;overflow: hidden;display: none">
+                
+                <img src="" class="postimage">
+                
+            </div>
+            <div class="postinfo-detail">
+                <div class="postdate"><i class="fa fa-calendar"></i>2020-08-12</div>
+            <div class="poststatus postdate"><i class="fa fa-clock-o"></i> 3 min read</div>
+            <div class="posttag">
+                
+                <a href="https://chamcohua.github.io/tag/y28mMCip-/" class="postlink">
+                    <i class="fa fa-tag"></i> Typora
+                </a>
+                
+            </div>
+        </div>
+        
+        <div id="texttitle" style="text-align: center">
+            <h2>Typora常用技巧</h2>
+            <!-- id 将作为查询条件 -->
+            <div id="pl" style="display:none">https://chamcohua.github.io/post/typora-chang-yong-ji-qiao/</div>
+            <div id="rootaddr" style="display:none">https://chamcohua.github.io/</div>
+            <span id="hotnum" class="leancloud_visitors" data-flag-title="Typora常用技巧">
+                <h4 class="readercount">热度🔥: <i class="leancloud-visitors-count">loading...</i></h4>
+            </span>
+        </div>
+        <div class="text ">
+            <p>[toc]</p>
 <h1 id="typora快捷键">typora快捷键😀</h1>
 <table>
 <thead>
@@ -268,8 +493,8 @@
 </ol>
 <h1 id="任务列表">任务列表</h1>
 <ul class="contains-task-list">
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-2787440"><label class="task-list-item-label" for="task-item-2787440"> A</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-2224234"><label class="task-list-item-label" for="task-item-2224234"> b</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-2784365"><label class="task-list-item-label" for="task-item-2784365"> A</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-8656435"><label class="task-list-item-label" for="task-item-8656435"> b</label></li>
 </ul>
 <p>创建方式：- [ ] A</p>
 <p>注意：</p>
@@ -362,56 +587,682 @@ for in in range(10):
 </li>
 </ul>
 
-                </div>
-            </article>
         </div>
-
         
-            <div class="next-post">
-                <div class="next gt-c-content-color-first">下一篇</div>
-                <a href="https://chamcohua.github.io/post/hello-gridea/" class="post-title gt-a-link">
-                    Hello Gridea
-                </a>
+        <div class="prev-post">
+            上一篇
+            <a href="https://chamcohua.github.io/post/github-pages-bang-ding-ge-ren-yu-ming-mian-fei-yu-ming-freenom/">
+                GitHub Pages 绑定个人域名，免费域名freenom
+            </a>
+        </div>
+        
+        
+        <div class="next-post">
+            下一篇
+            <a href="https://chamcohua.github.io/post/hello-gridea/">
+                Hello Gridea
+            </a>
+        </div>
+        
+    </div>
+    </div>
+</body>
+<script>
+    var t_img; // 定时�?
+    var isLoad = true; // 控制变量
+    isImgLoad(function () {
+        // 加载完成
+        $('.postdetailimg').css("display", "block");
+    });
+    // 判断图片加载的函�?
+    function isImgLoad(callback) {
+        // 注意我的图片类名都是cover，因为我�?需要�?�理cover。其它图片可以不管�?
+        // 查找所有封面图，迭代�?�理
+        $('.postdetailimg').each(function () {
+            // 找到�?0就将isLoad设为false，并退出each
+            if (this.height === 0) {
+                isLoad = false;
+                return false;
+            }
+        });
+        // 为true，没有发现为0的。加载完�?
+        if (isLoad) {
+            clearTimeout(t_img); // 清除定时�?
+            // 回调函数
+            callback();
+            // 为false，因为找到了没有加载完成的图，将调用定时器递归
+        } else {
+            isLoad = true;
+            t_img = setTimeout(function () {
+                isImgLoad(callback); // 递归�?�?
+            }, 500); // 我这里�?�置的是500�?秒就�?描一次，�?以自己调�?
+        }
+    }
+
+    //文章阅读热度
+    var pl = $("#pl").html();
+    var rootaddr = $("#rootaddr").html();
+    pl = pl.replace(rootaddr, "");
+    $("#hotnum").attr('id', pl);
+</script>
+                    <div style="background: white;">分享</div>
+                    <div class="share" style="height:30px;background: white;">
+
+                    </div>
+                    <div name="comment" style="background: white">
+                        <div class="commentcontainer">
+                            
+                                <p>请到客户端“主题--自定义配置--valine”中填入ID和KEY</p>
+                            
+                        </div>
+                    </div>
+                </div>
+            
+            <div class="toc-container">
+                <ul class="markdownIt-TOC">
+<li><a href="#typora%E5%BF%AB%E6%8D%B7%E9%94%AE">typora快捷键😀</a></li>
+<li><a href="#%E6%9C%89%E5%BA%8F%E5%88%97%E8%A1%A8">有序列表</a><br>
+*
+<ul>
+<li><a href="#%E5%BF%AB%E6%8D%B7%E9%94%AEctrlshift">快捷键：<code>Ctrl+Shift+[</code></a></li>
+<li><a href="#%E7%A4%BA%E4%BE%8B">示例:</a>
+<ul>
+<li><a href="#%E6%B3%A8%E6%84%8F">注意：</a></li>
+</ul>
+</li>
+</ul>
+</li>
+<li><a href="#%E6%97%A0%E5%BA%8F%E5%88%97%E8%A1%A8">无序列表</a><br>
+*<br>
+*<br>
+* <a href="#%E5%BF%AB%E6%8D%B7%E9%94%AEctrlshift-2">快捷键：<code>Ctrl+Shift+]</code></a>
+<ul>
+<li><a href="#%E7%A4%BA%E4%BE%8B-2">示例:</a></li>
+</ul>
+</li>
+<li><a href="#%E4%BB%BB%E5%8A%A1%E5%88%97%E8%A1%A8">任务列表</a></li>
+<li><a href="#%E8%A1%A8%E6%A0%BC">表格</a><br>
+*<br>
+*<br>
+* <a href="#%E5%BF%AB%E6%8D%B7%E9%94%AEctrlt">快捷键：<code>Ctrl+T</code></a></li>
+<li><a href="#%E4%BB%A3%E7%A0%81%E5%8C%BA%E5%9D%97">代码区块</a><br>
+*<br>
+*<br>
+* <a href="#%E5%BF%AB%E6%8D%B7%E9%94%AEctrlshiftk">快捷键：<code>Ctrl+Shift+K</code></a></li>
+<li><a href="#%E8%84%9A%E6%B3%A8">脚注</a><br>
+*<br>
+*<br>
+*<br>
+* <a href="#%E5%88%9B%E5%BB%BA%E6%96%B9%E5%BC%8F">创建方式：</a><br>
+* <a href="#%E5%AE%9E%E4%BE%8B%E6%BC%94%E7%A4%BA">实例演示：</a></li>
+<li><a href="#%E4%B8%8A%E4%B8%8B%E6%A0%87">上下标</a></li>
+<li><a href="#%E6%B3%A8%E9%87%8A">注释</a></li>
+<li><a href="#emoji%E5%9B%BE%E6%A0%87">emoji图标</a></li>
+<li><a href="#%E4%B8%BB%E9%A2%98%E7%BD%91%E7%AB%99">主题网站</a></li>
+<li><a href="#markown">markown</a></li>
+</ul>
+
             </div>
-        
+        </div>
+    </div>
+    <div class="toggleContainer">
+        <div class="toggle">
+            <i class="fas fa-angle-double-up"></i>
+        </div>
+    </div>
+    <div id="bg">
+    </div>
+    <div id="bgchoice" style="display: none"></div>
+    
+        <div id="bgurl" style="display:none"></div>
+    
+</div>
+<!-- 响应式布局，针对手机端内容显示 -->
+<div class="nav-small">
+    <head>
+  <!-- 引入Bootstrap核心样式文件 -->
+  <link rel="stylesheet" href="https://chamcohua.github.io//media/css/bootstrap.min.css">
+</head>
 
-        
+<body>
+  <nav class="navbar navbar-inverse navbar-fixed-top">
+    <div class="container-fluid">
+      <!-- Brand and toggle get grouped for better mobile display -->
+      <div class="navbar-header">
+        <button type="button" class="navbar-toggle collapsed" data-toggle="collapse"
+          data-target="#barmenu" aria-expanded="false" id="barbutton">
+          <span class="sr-only">Toggle navigation</span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+          <span class="icon-bar"></span>
+        </button>
+        <a class="navbar-brand" href="https://chamcohua.github.io/">chamcohua&nbsp;&nbsp;|</a>
+      </div>
 
-        
+      <!-- Collect the nav links, forms, and other content for toggling -->
+      <div class="collapse navbar-collapse" id="barmenu">
+        <ul class="nav navbar-nav">
+          
+          
+          <li>
+            <a href="/">
+              首页
+            </a>
+          </li>
+          
+          
+          
+          <li>
+            <a href="/archives">
+              归档
+            </a>
+          </li>
+          
+          
+          
+          <li>
+            <a href="/tags">
+              标签
+            </a>
+          </li>
+          
+          
+          
+          <li>
+            <a href="/post/about">
+              关于
+            </a>
+          </li>
+          
+          
+          
+          
+        </ul>
+      </div><!-- /.navbar-collapse -->
+    </div><!-- /.container-fluid -->
+  </nav>
 
-        
 
-        <div class="site-footer gt-c-content-color-first">
-    <div class="slogan gt-c-content-color-first">温故而知新</div>
-    <div class="social-container">
-        
+  <!-- 引入jQuery核心js文件 -->
+  <script src="http://cdn.static.runoob.com/libs/jquery/2.1.1/jquery.min.js"></script>
+  <script>
+  var btstate = false;
+  var bt = $("#barbutton");
+  var bm = $("#barmenu");
+  bt.click(function(){
+    dropdown();
+  })
+  function dropdown(){
+    console.log(btstate);
+    //下拉
+    if(btstate==false){
+      bt.removeClass("collapsed");
+      bt.attr("aria-expanded","true");
+      bm.attr("aria-expanded","true")
+      bm.fadeIn(700);
+      btstate = true;
+    }
+    else{
+      bt.addClass("collapsed");
+      bt.attr("aria-expanded","false");
+      bm.removeClass("in");
+      bm.hide();
+      bm.attr("aria-expanded","false");
+      btstate = false;
+    }
+  }
+  </script> 
+</body>
+    <div style="margin-top:30px"></div>
+    <link rel="stylesheet" href="https://chamcohua.github.io//media/css/font-awesome.css">
+<style>
+
+</style>
+
+<body>
+    <div class="allcontent" id="postdetail">
+        <div class="postshow">
             
+            <div class="postdetailimg" style="width:100%;overflow: hidden;display: none">
+                
+                <img src="" class="postimage">
+                
+            </div>
+            <div class="postinfo-detail">
+                <div class="postdate"><i class="fa fa-calendar"></i>2020-08-12</div>
+            <div class="poststatus postdate"><i class="fa fa-clock-o"></i> 3 min read</div>
+            <div class="posttag">
+                
+                <a href="https://chamcohua.github.io/tag/y28mMCip-/" class="postlink">
+                    <i class="fa fa-tag"></i> Typora
+                </a>
+                
+            </div>
+        </div>
         
-            
+        <div id="texttitle" style="text-align: center">
+            <h2>Typora常用技巧</h2>
+            <!-- id 将作为查询条件 -->
+            <div id="pl" style="display:none">https://chamcohua.github.io/post/typora-chang-yong-ji-qiao/</div>
+            <div id="rootaddr" style="display:none">https://chamcohua.github.io/</div>
+            <span id="hotnum" class="leancloud_visitors" data-flag-title="Typora常用技巧">
+                <h4 class="readercount">热度🔥: <i class="leancloud-visitors-count">loading...</i></h4>
+            </span>
+        </div>
+        <div class="text ">
+            <p>[toc]</p>
+<h1 id="typora快捷键">typora快捷键😀</h1>
+<table>
+<thead>
+<tr>
+<th style="text-align:center"></th>
+<th style="text-align:center">快捷键</th>
+<th style="text-align:center">创建方式(markdown)</th>
+<th style="text-align:center">显示结果</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center">一到六级标题</td>
+<td style="text-align:center"><code>Ctrl+1到Ctrl+6</code></td>
+<td style="text-align:center"><mark>n个#(n=1~6)</mark></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">斜体</td>
+<td style="text-align:center"><code>Ctrl+I</code></td>
+<td style="text-align:center"><code>*斜体*</code></td>
+<td style="text-align:center"><em>斜体</em></td>
+</tr>
+<tr>
+<td style="text-align:center">加粗</td>
+<td style="text-align:center"><code>Ctrl+B</code></td>
+<td style="text-align:center"><code>**加粗**</code></td>
+<td style="text-align:center"><strong>加粗</strong></td>
+</tr>
+<tr>
+<td style="text-align:center">高亮</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"><code>==高亮==</code></td>
+<td style="text-align:center"><mark>高亮</mark></td>
+</tr>
+<tr>
+<td style="text-align:center">下划线</td>
+<td style="text-align:center"><code>Ctrl+U</code></td>
+<td style="text-align:center"><code>&lt;u&gt;下划线&lt;/u&gt;</code></td>
+<td style="text-align:center"><u>下划线</u></td>
+</tr>
+<tr>
+<td style="text-align:center">删除线</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"><code>~~删除~~</code></td>
+<td style="text-align:center"><s>删除</s></td>
+</tr>
+<tr>
+<td style="text-align:center">分割线</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">用三个以上的*号、-号、_来建立一个分隔线</td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">行内代码</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">在两个`中插入</td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">代码块</td>
+<td style="text-align:center"></td>
+<td style="text-align:center">```+回车键</td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">超链接</td>
+<td style="text-align:center"><code>Ctrl+K</code></td>
+<td style="text-align:center"><code>[链接名称](链接地址)</code>或直接使用链接地址</td>
+<td style="text-align:center"><a href="chamcohua.club">网站</a></td>
+</tr>
+<tr>
+<td style="text-align:center">插入图片</td>
+<td style="text-align:center"><code>Ctrl+Shift+I</code></td>
+<td style="text-align:center"><code>![]()</code>-&gt;选择图片</td>
+<td style="text-align:center"><img src="" alt=" " loading="lazy"></td>
+</tr>
+<tr>
+<td style="text-align:center">目录生成</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"><code>[toc]</code></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">LeTex</td>
+<td style="text-align:center"><code>Ctrl+Shift+M</code></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center">内联公式</td>
+<td style="text-align:center"></td>
+<td style="text-align:center"><code>$公式$</code></td>
+<td style="text-align:center"><span class="katex"><span class="katex-mathml"><math><semantics><mrow><msup><mi>e</mi><mn>2</mn></msup><mo>+</mo><mi>x</mi><mo>=</mo><mn>0</mn></mrow><annotation encoding="application/x-tex">e^2+x=0</annotation></semantics></math></span><span class="katex-html" aria-hidden="true"><span class="base"><span class="strut" style="height:0.897438em;vertical-align:-0.08333em;"></span><span class="mord"><span class="mord mathdefault">e</span><span class="msupsub"><span class="vlist-t"><span class="vlist-r"><span class="vlist" style="height:0.8141079999999999em;"><span style="top:-3.063em;margin-right:0.05em;"><span class="pstrut" style="height:2.7em;"></span><span class="sizing reset-size6 size3 mtight"><span class="mord mtight">2</span></span></span></span></span></span></span></span><span class="mspace" style="margin-right:0.2222222222222222em;"></span><span class="mbin">+</span><span class="mspace" style="margin-right:0.2222222222222222em;"></span></span><span class="base"><span class="strut" style="height:0.43056em;vertical-align:0em;"></span><span class="mord mathdefault">x</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span><span class="mrel">=</span><span class="mspace" style="margin-right:0.2777777777777778em;"></span></span><span class="base"><span class="strut" style="height:0.64444em;vertical-align:0em;"></span><span class="mord">0</span></span></span></span></td>
+</tr>
+</tbody>
+</table>
+<h1 id="有序列表">有序列表</h1>
+<h3 id="快捷键ctrlshift">快捷键：<code>Ctrl+Shift+[</code></h3>
+<h3 id="示例">示例:</h3>
+<ol>
+<li>a
+<ol>
+<li>b</li>
+<li>c</li>
+<li>d</li>
+</ol>
+</li>
+<li>e</li>
+<li>f</li>
+</ol>
+<h4 id="注意">注意：</h4>
+<ol>
+<li>编号后，一定要有空格。</li>
+<li>行末回车，序号会自动添加。</li>
+</ol>
+<ul>
+<li>行末按方向下键，序号不会自动添加。</li>
+</ul>
+<ol start="3">
+<li>
+<p>添加/删除某一行内容，序号会自动调整，</p>
+</li>
+<li>
+<p>降级快捷键：Tab</p>
+<p>升级快捷键：Shift+Tab或回车</p>
+</li>
+</ol>
+<h1 id="无序列表">无序列表</h1>
+<h4 id="快捷键ctrlshift-2">快捷键：<code>Ctrl+Shift+]</code></h4>
+<h3 id="示例-2">示例:</h3>
+<ul>
+<li>A</li>
+<li>B
+<ul>
+<li>C</li>
+</ul>
+<ol>
+<li>a</li>
+<li>b
+<ul>
+<li>c</li>
+<li>d</li>
+</ul>
+</li>
+</ol>
+</li>
+<li>C</li>
+</ul>
+<p>创建方式：* A  或 - A 或+ A</p>
+<p>注意：</p>
+<ol>
+<li>
+<p>*或-后，一定要有空格！</p>
+</li>
+<li>
+<p>降级快捷键：Tab</p>
+<p>升级快捷键：Shift+Tab或回车</p>
+</li>
+<li>
+<p>有序列表和无序列表可以交错使用。</p>
+</li>
+</ol>
+<h1 id="任务列表">任务列表</h1>
+<ul class="contains-task-list">
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-2784365"><label class="task-list-item-label" for="task-item-2784365"> A</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-8656435"><label class="task-list-item-label" for="task-item-8656435"> b</label></li>
+</ul>
+<p>创建方式：- [ ] A</p>
+<p>注意：</p>
+<ol>
+<li>-, [, ]后，都一定要有空格! 括号一定是英文括号。</li>
+<li>无快捷键，可以通过鼠标操作。</li>
+</ol>
+<ul>
+<li>选中文字-&gt;段落-&gt;任务列表</li>
+</ul>
+<h1 id="表格">表格</h1>
+<h4 id="快捷键ctrlt">快捷键：<code>Ctrl+T</code></h4>
+<ol>
+<li>创建方式：|xx|xx|-&gt;回车。</li>
+<li>注意：添加一行，只需按下Ctrl+回车。</li>
+<li>其他操作：
+<ol>
+<li>调整表格行列值。</li>
+<li>左中右对齐。</li>
+<li>插入/删除表格行列。</li>
+<li>删除表格。</li>
+</ol>
+</li>
+</ol>
+<p>注意：添加一行，</p>
+<table>
+<thead>
+<tr>
+<th style="text-align:center">1</th>
+<th style="text-align:center">2</th>
+<th style="text-align:center">3</th>
+</tr>
+</thead>
+<tbody>
+<tr>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+<tr>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+<td style="text-align:center"></td>
+</tr>
+</tbody>
+</table>
+<h1 id="代码区块">代码区块</h1>
+<h4 id="快捷键ctrlshiftk">快捷键：<code>Ctrl+Shift+K</code></h4>
+<pre><code class="language-python">import time 
+for in in range(10):
+    print(i)
+</code></pre>
+<p>创建方式：```或~~~java/C++/python···</p>
+<h1 id="脚注">脚注</h1>
+<h5 id="创建方式">创建方式：</h5>
+<pre><code>[^要注明的文本]
+</code></pre>
+<h5 id="实例演示">实例演示：</h5>
+<pre><code>实例[^xx]
+[^xx]:一个实例
+</code></pre>
+<h1 id="上下标">上下标</h1>
+<pre><code>上标：x^2^ 
+下标：H~2~O
+</code></pre>
+<h1 id="注释">注释</h1>
+<pre><code>&lt;!==不显示==&gt;
+</code></pre>
+<p>&lt;!<mark>不显示</mark>&gt;</p>
+<h1 id="emoji图标">emoji图标</h1>
+<pre><code>:arrow_up
+······
+</code></pre>
+<pre><code class="language-flow">
+</code></pre>
+<h1 id="主题网站">主题网站</h1>
+<p><a href="http://theme.typora.io/">typora主题网站</a></p>
+<h1 id="markown">markown</h1>
+<ul>
+<li>
+<p><a href="https://www.runoob.com/markdown/md-tutorial.html">markdown语法参考</a></p>
+</li>
+<li>
+<p><a href="https://c.runoob.com/front-end/712">mardown在线编辑器</a></p>
+</li>
+</ul>
+
+        </div>
         
-            
+        <div class="prev-post">
+            上一篇
+            <a href="https://chamcohua.github.io/post/github-pages-bang-ding-ge-ren-yu-ming-mian-fei-yu-ming-freenom/">
+                GitHub Pages 绑定个人域名，免费域名freenom
+            </a>
+        </div>
         
-            
         
-            
-        
-            
+        <div class="next-post">
+            下一篇
+            <a href="https://chamcohua.github.io/post/hello-gridea/">
+                Hello Gridea
+            </a>
+        </div>
         
     </div>
-    <div class="footer-info">
-        Powered by <a href="https://github.com/getgridea/gridea" target="_blank">Gridea</a>
     </div>
-    <div>
-        Theme by <a href="https://imhanjie.com/" target="_blank">imhanjie</a>, Powered by <a
-                href="https://github.com/getgridea/gridea" target="_blank">Gridea | <a href="https://chamcohua.github.io//atom.xml" target="_blank">RSS</a></a>
+</body>
+<script>
+    var t_img; // 定时�?
+    var isLoad = true; // 控制变量
+    isImgLoad(function () {
+        // 加载完成
+        $('.postdetailimg').css("display", "block");
+    });
+    // 判断图片加载的函�?
+    function isImgLoad(callback) {
+        // 注意我的图片类名都是cover，因为我�?需要�?�理cover。其它图片可以不管�?
+        // 查找所有封面图，迭代�?�理
+        $('.postdetailimg').each(function () {
+            // 找到�?0就将isLoad设为false，并退出each
+            if (this.height === 0) {
+                isLoad = false;
+                return false;
+            }
+        });
+        // 为true，没有发现为0的。加载完�?
+        if (isLoad) {
+            clearTimeout(t_img); // 清除定时�?
+            // 回调函数
+            callback();
+            // 为false，因为找到了没有加载完成的图，将调用定时器递归
+        } else {
+            isLoad = true;
+            t_img = setTimeout(function () {
+                isImgLoad(callback); // 递归�?�?
+            }, 500); // 我这里�?�置的是500�?秒就�?描一次，�?以自己调�?
+        }
+    }
+
+    //文章阅读热度
+    var pl = $("#pl").html();
+    var rootaddr = $("#rootaddr").html();
+    pl = pl.replace(rootaddr, "");
+    $("#hotnum").attr('id', pl);
+</script>
+    <div name="comment" style="background: white;margin-top:100px">
+        <div class="commentcontainer">
+            
+                <p>请到客户端“主题--自定义配置--valine”中填入ID和KEY</p>
+            
+        </div>
     </div>
 </div>
-
+<div id="landlord">
+    <div class="message" style="opacity:0"></div>
+    <canvas id="live2d" width="240" height="250" class="live2d"></canvas>
+</div>
+<div id="codeCopyText" style="display: none">代码复制成功了哦</div>
+<div id="domainname" style="display:none">https://chamcohua.github.io/</div>
+</body>
+<script src="https://chamcohua.github.io//media/js/post.js"></script>
 <script>
-  hljs.initHighlightingOnLoad()
+    //寻找所有code标签，加复制按钮鸭！(行内代码除外)
+    var codes = document.getElementsByTagName('code');
+    if (codes.length) {
+        for (var i = 0; i < codes.length; i++) {
+            //高度/行高=文本行数
+            // var rowNum=Math.round(codes[i].height()/parseFloat(codes[i].css('line-height')));
+            // console.log("当前有"+rowNum+"行");
+            var code_id = "code_id_" + i;
+            codes[i].setAttribute("id", code_id);
+            var ci = "#" + code_id;
+            var codedot = $(ci);
+            var rowNum = Math.round(codedot.height() / parseFloat(codedot.css('line-height')));
+            if (rowNum <= 1) continue;
+            var btn = document.createElement("button");
+            btn.setAttribute("class", "copybt");
+            btn.setAttribute("data-clipboard-target", "#" + code_id);
+            btn.innerHTML = '复制代码';
+            codes[i].parentNode.insertBefore(btn, codes[i]);
+        }
+    }
+    ;
+    var cop = new ClipboardJS('.copybt');
+    var codeCopyText = $("#codeCopyText").html();
+    cop.on('success', function (e) {
+        alert(codeCopyText);
+        e.clearSelection();
+    });
+    cop.on('error', function (e) {
+        alert("矮油，复制失败了...手动复制吧勇士！");
+        e.clearSelection();
+    });
 </script>
 
-    </div>
-</div>
-</body>
-</html>
+<script>
+    $(function () {
+        $('.toggleContainer').click(function () {
+            $('html,body').animate({scrollTop: '0px'}, 800);
+        });
+        $(window).scroll(function () {
+            var st = $(window).scrollTop();
+            if (st > 30) {
+                $(".toggleContainer").fadeIn(400);
+            } else {
+                $(".toggleContainer").fadeOut(100);
+            }
+        });
+    });
+</script>
+
+<script>
+    var bgchoice = $('#bgchoice').html();
+    var bg = $('#bg');
+    var bgurl = document.getElementById("bgurl").innerHTML;
+    if (bgchoice == 'default')
+        for (var i = 0; i < 3; i++)
+            bgurl = bgurl.replace("\\", "/");
+    bg.css("background", "url('" + bgurl + "')");
+</script>
+
+    <script src="https://chamcohua.github.io//media/js/index.js"></script>
+
+
+<script src="https://chamcohua.github.io//media/share2/dist/Share.js"></script>
+<script>
+    var title = document.getElementById("texttitle").getElementsByTagName("h2");
+    var share = new Share('.share', {
+        title: title[0].innerHTML,
+        //默认获取网站描述
+        description: document.getElementsByClassName("navbar-brand")[1].innerHTML,
+        //网站图片默认获取的是设置的用户头像
+        image: $(".menutopavatar").attr("src"),
+        //激活的分享网站
+        sites: ['qq', 'qzone', 'wechat', 'weibo', 'douban', 'twitter', 'facebook'],
+        //微信分享PC端会生成二维码分享,移动端如果可以唤起微信最好
+        wechatQrcodeTitle: "微信扫一扫：分享", // 微信二维码提示文字
+        wechatQrcodeHelper: '<p>微信里扫一下二维码</p><p>便可将本文分享至朋友圈。</p>',
+        //关闭的网站分享
+        disabled: ['google', 'linkedin'],
+        wechatQrcodePosition: 'bottom'
+    });
+</script>
