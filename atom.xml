@@ -2,14 +2,14 @@
 <feed xmlns="http://www.w3.org/2005/Atom">
     <id>https://chamcohua.github.io/</id>
     <title>chamcohua</title>
-    <updated>2020-08-17T13:18:43.532Z</updated>
+    <updated>2021-02-03T07:02:28.180Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
     <link rel="alternate" href="https://chamcohua.github.io/"/>
     <link rel="self" href="https://chamcohua.github.io/atom.xml"/>
     <subtitle>温故而知新</subtitle>
     <logo>https://chamcohua.github.io/images/avatar.png</logo>
     <icon>https://chamcohua.github.io/favicon.ico</icon>
-    <rights>All rights reserved 2020, chamcohua</rights>
+    <rights>All rights reserved 2021, chamcohua</rights>
     <entry>
         <title type="html"><![CDATA[GitHub Pages 绑定个人域名，免费域名freenom]]></title>
         <id>https://chamcohua.github.io/post/github-pages-bang-ding-ge-ren-yu-ming-mian-fei-yu-ming-freenom/</id>
@@ -204,8 +204,8 @@
 </ol>
 <h1 id="任务列表">任务列表</h1>
 <ul class="contains-task-list">
-<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-579950"><label class="task-list-item-label" for="task-item-579950"> A</label></li>
-<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-7203762"><label class="task-list-item-label" for="task-item-7203762"> b</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" disabled="" type="checkbox" id="task-item-8248895"><label class="task-list-item-label" for="task-item-8248895"> A</label></li>
+<li class="task-list-item"><input class="task-list-item-checkbox" checked="" disabled="" type="checkbox" id="task-item-4083094"><label class="task-list-item-label" for="task-item-4083094"> b</label></li>
 </ul>
 <p>创建方式：- [ ] A</p>
 <p>注意：</p>
